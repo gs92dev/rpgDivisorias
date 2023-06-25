@@ -5,7 +5,7 @@
     font-size: 1rem;
 }
 main{
-    background-color: rgba(234, 178, 74, 0.888);
+    background-color: rgba(240, 165, 26, 0.888);
     color: #fafafa;
 }
 
@@ -31,6 +31,7 @@ span{
     padding: 0 4px 0 4px;   
     border-bottom: orange solid 3px;
 }
+
 .heading-RPG{
     text-align: center;
 }
@@ -72,6 +73,7 @@ footer{
         background-color: #fafafa;
         align-items: center;
         text-align: center;
+        height: 40px;
     
 }
 @media only screen and (max-width:600px){
