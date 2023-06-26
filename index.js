@@ -4,8 +4,10 @@ menu = document.getElementById("menu");
 icon.onclick = (e) => {
   e.preventDefault();
   if (menu.classList.contains("menu")) {
-    menu.remove(menu);
+    menu.classList.remove("menu");
     console.log("clicado1");
+  } else {
+    menu.classList.add("menu");
   }
   console.log("clicado");
 };
