@@ -23,6 +23,9 @@ main{
 .menu{
 justify-content: space-around;
 }
+.ham-icon{
+    display:none;
+}
 .logo{
     border-right: orange solid 3px;
 }
@@ -70,15 +73,21 @@ p,li{
 }
 footer{    
       
-        background-color: #fafafa;
-        align-items: center;
-        text-align: center;
-        height: 40px;
-        color: orange;
+    background-color: #fafafa;
+    align-items: center;
+    text-align: center;
+    height: 40px;
+    color: orange;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     
 }
 @media only screen and (max-width:600px){
-    
+    .ham-icon{
+        display:inline;
+        margin-right: 10px;
+    }
+    .menu{
+        display: none;
+    }
 }
