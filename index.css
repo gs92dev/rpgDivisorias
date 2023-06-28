@@ -85,6 +85,13 @@ footer{
 .close{
     display: none;
 }
+a{
+    text-decoration: underline 0.15em rgba(207, 25, 25, 0)!important;
+    transition: text-decoration-color 300ms;
+}
+a:hover{
+    text-decoration: underline !important;
+}
 @media only screen and (max-width:600px){
     .ham-icon{
         display:inline;
