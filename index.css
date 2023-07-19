@@ -1,44 +1,51 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 1rem;
 }
-main{
+
+main {
     background-color: rgba(240, 165, 26, 0.888);
     color: #fafafa;
 }
 
-.display-flex{
+.display-flex {
     display: flex;
     flex-direction: row;
     padding: 8px;
     flex-wrap: wrap;
 }
-.nav-bar{
+
+.nav-bar {
     justify-content: space-between;
     background-color: #fafafa;
     align-items: center;
 }
-.menu{
-justify-content: space-around;
+
+.menu {
+    justify-content: space-around;
 }
-.ham-icon{
-    display:none;
+
+.ham-icon {
+    display: none;
 }
-.logo{
+
+.logo {
     border-right: orange solid 3px;
 }
-span{
+
+span {
     font-size: 1.5rem;
-    padding: 0 4px 0 4px;   
+    padding: 0 4px 0 4px;
     border-bottom: orange solid 3px;
 }
 
-.heading-RPG{
+.heading-RPG {
     text-align: center;
 }
-.menu-link{
+
+.menu-link {
     padding: 4px;
     text-decoration: none;
     list-style: none;
@@ -50,29 +57,35 @@ span{
     font-weight: bold;
     cursor: pointer;
 }
-.company{
+
+.company {
     font-size: 1.5rem;
     padding-left: 50px;
     color: orange;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    
+
 }
-.Whatsapp{
+
+.Whatsapp {
     width: 2rem;
     text-decoration: none;
     list-style: none;
 }
-.contato{
+
+.contato {
     text-decoration: none;
     color: #fafafa;
     font-size: 1.3rem;
 }
-p,li{
+
+p,
+li {
     font-size: 1.2rem;
 }
-footer{    
-      
+
+footer {
+
     background-color: #fafafa;
     align-items: center;
     text-align: center;
@@ -81,33 +94,68 @@ footer{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     height: auto;
-    
+
 }
-.close{
+
+.close {
     display: none;
 }
-a{
-    text-decoration: underline 0.15em rgba(207, 25, 25, 0)!important;
+
+a {
+    text-decoration: underline 0.15em rgba(207, 25, 25, 0) !important;
     transition: text-decoration-color 300ms;
 }
-a:hover{
+
+a:hover {
     text-decoration: underline !important;
 }
-@media only screen and (max-width:600px){
-    .ham-icon{
-        display:inline;
+
+.wpp-fixed {
+    display: none;
+}
+
+@media only screen and (max-width:600px) {
+    .ham-icon {
+        display: inline;
         margin-right: 10px;
     }
-    .menu{
+
+    .menu {
         margin-top: -200px;
         justify-content: space-around;
         transition: all 0.9s ease-in-out;
     }
-    footer{
+
+    footer {
         height: auto;
         padding: 4px;
     }
-    .close{
+
+    .close {
         display: none;
+    }
+
+    .wpp-fixed {
+        background: #FAFAFA;
+        bottom: 0px;
+        display: flex;
+        font-size: 1rem;
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+        justify-content: center;
+    }
+
+    .wp-ico {
+        display: flex;
+        margin: 4px;
+        padding: 4px;
+        justify-content: space-around;
+        font-style: none;
+        text-decoration: none !important;
+        color: black;
+    }
+    .wp-ico>p{
+        padding: 4px;
     }
 }
