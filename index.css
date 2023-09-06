@@ -6,8 +6,8 @@
 }
 
 main {
-    background-color: rgba(240, 165, 26, 0.888);
-    color: #fafafa;
+    background-color: #fafafa;
+    color: black ;
 }
 
 .display-flex {
@@ -19,7 +19,7 @@ main {
 
 .nav-bar {
     justify-content: space-between;
-    background-color: #fafafa;
+    background-color: rgba(240, 165, 26, 0.888);
     align-items: center;
 }
 
@@ -32,17 +32,19 @@ main {
 }
 
 .logo {
-    border-right: orange solid 3px;
+    border-right: white solid 3px;
 }
 
 span {
     font-size: 1.5rem;
     padding: 0 4px 0 4px;
-    border-bottom: orange solid 3px;
+    border-bottom: white solid 3px;
 }
 
 .heading-RPG {
     text-align: center;
+    color: orange ;
+
 }
 
 .menu-link {
@@ -52,7 +54,7 @@ span {
     font-size: 1.2rem;
     padding-left: 50px;
     padding-right: 30px;
-    color: orange;
+    color: white;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     cursor: pointer;
@@ -61,10 +63,14 @@ span {
 .company {
     font-size: 1.5rem;
     padding-left: 50px;
-    color: orange;
+    color: white;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 
+}
+img{
+    border-radius: 6px;
+    
 }
 
 .Whatsapp {
@@ -72,10 +78,12 @@ span {
     text-decoration: none;
     list-style: none;
 }
-
+#contato,#servicos{
+    color: orange ;
+}
 .contato {
     text-decoration: none;
-    color: #fafafa;
+    color: black ;   
     font-size: 1.3rem;
 }
 
@@ -83,14 +91,24 @@ p,
 li {
     font-size: 1.2rem;
 }
+.mapa{
+    align-items: center;
+    text-align: center;
+    color: orange ;
+    padding: 12px;
+}
+iframe{
+ width: 95%;
+ height: 300px;
+}
 
 footer {
-
-    background-color: #fafafa;
+    bottom: 0px;
+    background-color: rgba(240, 165, 26, 0.888);
     align-items: center;
     text-align: center;
     height: 40px;
-    color: orange;
+    color: white ;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     height: auto;
