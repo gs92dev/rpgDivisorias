@@ -7,7 +7,7 @@
 
 main {
     background-color: #fafafa;
-    color: black ;
+    color: black;
 }
 
 .display-flex {
@@ -43,7 +43,7 @@ span {
 
 .heading-RPG {
     text-align: center;
-    color: orange ;
+    color: orange;
 
 }
 
@@ -68,9 +68,10 @@ span {
     font-weight: bold;
 
 }
-img{
+
+img {
     border-radius: 6px;
-    
+
 }
 
 .Whatsapp {
@@ -78,12 +79,15 @@ img{
     text-decoration: none;
     list-style: none;
 }
-#contato,#servicos{
-    color: orange ;
+
+#contato,
+#servicos {
+    color: orange;
 }
+
 .contato {
     text-decoration: none;
-    color: black ;   
+    color: black;
     font-size: 1.3rem;
 }
 
@@ -91,15 +95,17 @@ p,
 li {
     font-size: 1.2rem;
 }
-.mapa{
+
+.mapa {
     align-items: center;
     text-align: center;
-    color: orange ;
+    color: orange;
     padding: 12px;
 }
-iframe{
- width: 95%;
- height: 300px;
+
+iframe {
+    width: 95%;
+    height: 300px;
 }
 
 footer {
@@ -108,7 +114,7 @@ footer {
     align-items: center;
     text-align: center;
     height: 40px;
-    color: white ;
+    color: white;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     height: auto;
@@ -142,7 +148,7 @@ a:hover {
         margin-top: -200px;
         justify-content: space-around;
         transition: all 0.9s ease-in-out;
-    }
+    }    
 
     footer {
         height: auto;
@@ -173,7 +179,8 @@ a:hover {
         text-decoration: none !important;
         color: black;
     }
-    .wp-ico>p{
+
+    .wp-ico>p {
         padding: 4px;
     }
 }
